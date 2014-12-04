@@ -4,8 +4,9 @@ import csv
 
 reader = csv.reader(sys.stdin, delimiter=';')
 
+#Ovo je promena
 
-for line in reader:
+For line in reader:
     #Try to interpret 3rd column as a float. Ignore line on error.
     try:
         power = float(line[2])
